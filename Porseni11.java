@@ -8,7 +8,7 @@ public class Porseni11 {
         System.out.print("Masukkan jumlah politeknik yang mendaftar: ");
         int jumlah = sc.nextInt();
         int politeknik = 1;
-        String sampah = sc.nextLine();
+        String nothing = sc.nextLine();
 
         do {
         System.out.print("Masukkan nama politeknik yang ke-" + politeknik + ": ");
