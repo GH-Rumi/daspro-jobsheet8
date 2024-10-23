@@ -9,6 +9,7 @@ public class RataNilai11 {
         for (j=1;j<=5;i++) {
         i=1;
         while (i<=5) {
+            System.out.println("Input nilai mahasiswa ke-" + i);
             totalNilai=0;
             for (j=1;j<=5;j++) {
                     System.out.print("Nilai ke-" + j + " = ");
@@ -16,7 +17,7 @@ public class RataNilai11 {
                     totalNilai+=nilaiMhs;
             }
             rataNilai=totalNilai/5;
-            System.out.print("Rata-rata Nilai Mahasiswa ke-" + j + " adalah " + rataNilai);
+            System.out.println("Rata-rata Nilai Mahasiswa ke-" + i + " adalah " + rataNilai);
             i++;
         }
     }
